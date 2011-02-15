@@ -1,0 +1,2 @@
+/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainTimingsAppDelegate.m:87: warning: property 'navController' requires method '-navController' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainTimingsAppDelegate.m:87: warning: property 'navController' requires the method 'setNavController:' to be defined - use @synthesize, @dynamic or provide a method implementation

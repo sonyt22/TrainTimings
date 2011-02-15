@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* TrainTimingsAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {725, 297}}";
+			sepNavSelRange = "{491, 0}";
+			sepNavVisRange = "{0, 491}";
+		};
+	};
+	1D3623250D0F684500981E51 /* TrainTimingsAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1157}}";
+			sepNavSelRange = "{272, 0}";
+			sepNavVisRange = "{0, 665}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* TrainTimings */ = {
+		activeExec = 0;
+		executables = (
+			EB8DA11C12FFA07C00D9F6FD /* TrainTimings */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = EB8DA11C12FFA07C00D9F6FD /* TrainTimings */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TrainTimings */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* TrainTimings */,
+		);
+		codeSenseManager = EB8DA13412FFA08300D9F6FD /* Code sense */;
+		executables = (
+			EB8DA11C12FFA07C00D9F6FD /* TrainTimings */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					547,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 319443019;
+			PBXWorkspaceStateSaveDate = 319443019;
+		};
+		perUserProjectItems = {
+			EB672E1913024C3C00D1587C = EB672E1913024C3C00D1587C /* PBXTextBookmark */;
+			EB672E1A13024C3C00D1587C = EB672E1A13024C3C00D1587C /* PBXTextBookmark */;
+			EB672E1B13024C3C00D1587C = EB672E1B13024C3C00D1587C /* PBXTextBookmark */;
+			EB7E93D913056EC200703D9F = EB7E93D913056EC200703D9F /* PBXTextBookmark */;
+			EB8885D01300F7E00046A6EE = EB8885D01300F7E00046A6EE /* PBXTextBookmark */;
+			EB8886241300FABD0046A6EE = EB8886241300FABD0046A6EE /* PBXTextBookmark */;
+			EB8886401300FEB10046A6EE = EB8886401300FEB10046A6EE /* PBXTextBookmark */;
+			EB8DA15312FFA42900D9F6FD = EB8DA15312FFA42900D9F6FD /* PlistBookmark */;
+			EB8DA17312FFA63000D9F6FD = EB8DA17312FFA63000D9F6FD /* PBXTextBookmark */;
+			EB8DA1EF12FFB6F500D9F6FD = EB8DA1EF12FFB6F500D9F6FD /* PBXTextBookmark */;
+			EB8DA23F12FFBA7000D9F6FD = EB8DA23F12FFBA7000D9F6FD /* PBXTextBookmark */;
+			EB9AD7D41305112E00DA8BA2 = EB9AD7D41305112E00DA8BA2 /* PBXTextBookmark */;
+			EB9AD85F130533F600DA8BA2 = EB9AD85F130533F600DA8BA2 /* PBXTextBookmark */;
+		};
+		sourceControlManager = EB8DA13312FFA08300D9F6FD /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* TrainTimings_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {725, 297}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 193}";
+		};
+	};
+	8D1107310486CEB800E47090 /* TrainTimings-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 91}, {750, 655}}";
+		};
+	};
+	EB672DFA1302492700D1587C /* RegexKitLite.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = RegexKitLite.h;
+		path = "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/RegexKitLite.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {725, 4004}}";
+			sepNavSelRange = "{131, 0}";
+			sepNavVisRange = "{0, 690}";
+		};
+	};
+	EB672E1913024C3C00D1587C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB672DFA1302492700D1587C /* RegexKitLite.h */;
+		name = "RegexKitLite.h: 6";
+		rLen = 0;
+		rLoc = 131;
+		rType = 0;
+		vrLen = 824;
+		vrLoc = 0;
+	};
+	EB672E1A13024C3C00D1587C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TrainTimingsAppDelegate.h */;
+		name = "TrainTimingsAppDelegate.h: 22";
+		rLen = 0;
+		rLoc = 491;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 0;
+	};
+	EB672E1B13024C3C00D1587C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* TrainTimings_Prefix.pch */;
+		name = "TrainTimings_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 193;
+		vrLoc = 0;
+	};
+	EB7E93D913056EC200703D9F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB8885851300F2900046A6EE /* StationDetailViewController.m */;
+		name = "StationDetailViewController.m: 11";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 707;
+		vrLoc = 0;
+	};
+	EB8885841300F2900046A6EE /* StationDetailViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {725, 325}}";
+			sepNavSelRange = "{381, 0}";
+			sepNavVisRange = "{3, 600}";
+		};
+	};
+	EB8885851300F2900046A6EE /* StationDetailViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1846}}";
+			sepNavSelRange = "{769, 0}";
+			sepNavVisRange = "{645, 681}";
+		};
+	};
+	EB8885D01300F7E00046A6EE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB8DA13F12FFA3D700D9F6FD /* TrainsLiveViewController.m */;
+		name = "TrainsLiveViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 629;
+		vrLoc = 0;
+	};
+	EB8886241300FABD0046A6EE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TrainTimingsAppDelegate.m */;
+		name = "TrainTimingsAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 272;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 0;
+	};
+	EB8886401300FEB10046A6EE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB8DA13A12FFA3AE00D9F6FD /* StationViewController.m */;
+		name = "StationViewController.m: 141";
+		rLen = 0;
+		rLoc = 4195;
+		rType = 0;
+		vrLen = 932;
+		vrLoc = 3972;
+	};
+	EB8DA11C12FFA07C00D9F6FD /* TrainTimings */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TrainTimings;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	EB8DA13312FFA08300D9F6FD /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	EB8DA13412FFA08300D9F6FD /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	EB8DA13912FFA3AE00D9F6FD /* StationViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {725, 318}}";
+			sepNavSelRange = "{403, 0}";
+			sepNavVisRange = "{0, 409}";
+		};
+	};
+	EB8DA13A12FFA3AE00D9F6FD /* StationViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 2171}}";
+			sepNavSelRange = "{4195, 0}";
+			sepNavVisRange = "{3972, 966}";
+		};
+	};
+	EB8DA13E12FFA3D700D9F6FD /* TrainsLiveViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {725, 264}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 242}";
+		};
+	};
+	EB8DA13F12FFA3D700D9F6FD /* TrainsLiveViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 754}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 629}";
+		};
+	};
+	EB8DA15312FFA42900D9F6FD /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* TrainTimings-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = "/Volumes/Untitled 2/Xcode/TrainTimings/TrainTimings-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	EB8DA17312FFA63000D9F6FD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB8DA13E12FFA3D700D9F6FD /* TrainsLiveViewController.h */;
+		name = "TrainsLiveViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 242;
+		vrLoc = 0;
+	};
+	EB8DA17712FFAE8E00D9F6FD /* traincode.json */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {725, 4004}}";
+			sepNavSelRange = "{13, 0}";
+			sepNavVisRange = "{0, 251}";
+		};
+	};
+	EB8DA1EF12FFB6F500D9F6FD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB8DA17712FFAE8E00D9F6FD /* traincode.json */;
+		name = "traincode.json: 3";
+		rLen = 0;
+		rLoc = 13;
+		rType = 0;
+		vrLen = 251;
+		vrLoc = 0;
+	};
+	EB8DA23F12FFBA7000D9F6FD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB8DA13912FFA3AE00D9F6FD /* StationViewController.h */;
+		name = "StationViewController.h: 18";
+		rLen = 0;
+		rLoc = 403;
+		rType = 0;
+		vrLen = 409;
+		vrLoc = 0;
+	};
+	EB9AD7D41305112E00DA8BA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB8885841300F2900046A6EE /* StationDetailViewController.h */;
+		name = "StationDetailViewController.h: 17";
+		rLen = 0;
+		rLoc = 381;
+		rType = 0;
+		vrLen = 600;
+		vrLoc = 3;
+	};
+	EB9AD85F130533F600DA8BA2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB8885851300F2900046A6EE /* StationDetailViewController.m */;
+		name = "StationDetailViewController.m: 25";
+		rLen = 0;
+		rLoc = 766;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 256;
+	};
+}

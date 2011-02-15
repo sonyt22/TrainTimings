@@ -1,0 +1,293 @@
+{
+ "data":[
+{
+ 	"code":"ALLP",
+	"name":"Alleppey"
+},
+{
+ 	"code":"AWY",
+	"name":"Alwaye"
+},
+{
+ 	"code":"AMPA",
+	"name":"Ambalapuzha"
+},
+{
+ 	"code":"AFK",
+	"name":"Angamali"
+},
+{
+ 	"code":"BDJ",
+	"name":"Badagara"
+},
+{
+ 	"code":"CLT",
+	"name":"Calicut"
+},
+{
+ 	"code":"CAN",
+	"name":"Cannanore"
+},
+{
+ 	"code":"CKI",
+	"name":"Chalakudi"
+},
+{
+ 	"code":"CGY",
+	"name":"Changanacheri"
+},
+{
+ 	"code":"CHV",
+	"name":"Charvattur"
+},
+{
+ 	"code":"CNGR",
+	"name":"Chengannur"
+},
+{
+ 	"code":"CRY",
+	"name":"Chirayinkil"
+},
+{
+ 	"code":"CBE",
+	"name":"Coimbatore Jn"
+},
+{
+ 	"code":"DAVM",
+	"name":"Dhanuvachapuram"
+},
+{
+ 	"code":"DINR",
+	"name":"Divine Nagar Halt"
+},
+{
+ 	"code":"ERL",
+	"name":"Eraniel"
+},
+{
+ 	"code":"ERS",
+	"name":"Ernakulam Jn"
+},
+{
+ 	"code":"ERN",
+	"name":"Ernakulam Town"
+},
+{
+ 	"code":"ETM",
+	"name":"Ettumanur"
+},
+{
+ 	"code":"FK",
+	"name":"Ferok"
+},
+{
+ 	"code":"HAD",
+	"name":"Haripad"
+},
+{
+ 	"code":"IJK",
+	"name":"Irinjalakuda"
+},
+{
+ 	"code":"KVU",
+	"name":"Kadakavur"
+},
+{
+ 	"code":"KZE",
+	"name":"Kanhangad"
+},
+{
+ 	"code":"KPQ",
+	"name":"Kannapuram"
+},
+{
+ 	"code":"CAPE",
+	"name":"Kanyakumari"
+},
+{
+ 	"code":"KPY",
+	"name":"Karunagapalli"
+},
+{
+ 	"code":"KGQ",
+	"name":"Kasaragod"
+},
+{
+ 	"code":"KYJ",
+	"name":"Kayankulam"
+},
+{
+ 	"code":"KCVL",
+	"name":"Kochuveli"
+},
+{
+ 	"code":"KTYM",
+	"name":"Kottayam"
+},
+{
+ 	"code":"KMQ",
+	"name":"Kumbala"
+},
+{
+ 	"code":"KTU",
+	"name":"Kuttippuram"
+},
+{
+ 	"code":"KZT",
+	"name":"Kuzhithurai"
+},
+{
+ 	"code":"KZTW",
+	"name":"Kuzhiturai West"
+},
+{
+ 	"code":"MAHE",
+	"name":"Mahe"
+},
+{
+ 	"code":"MAQ",
+	"name":"Mangalore"
+},
+{
+ 	"code":"MJS",
+	"name":"Manjeshwar"
+},
+{
+ 	"code":"MVLK",
+	"name":"Mavelikara"
+},
+{
+ 	"code":"NCJ",
+	"name":"Nagarcoil Jn"
+},
+{
+ 	"code":"NJT",
+	"name":"Nager Coil Town"
+},
+{
+ 	"code":"NYY",
+	"name":"Neyyattinkara"
+},
+{
+ 	"code":"NLE",
+	"name":"Nileshwaram"
+},
+{
+ 	"code":"OTP",
+	"name":"Ottappalam"
+},
+{
+ 	"code":"PGT",
+	"name":"Palakkad"
+},
+{
+ 	"code":"PYD",
+	"name":"Palliyadi"
+},
+{
+ 	"code":"PGI",
+	"name":"Parapanangadi"
+},
+{
+ 	"code":"PASA",
+	"name":"Parasala"
+},
+{
+ 	"code":"PVU",
+	"name":"Paravur"
+},
+{
+ 	"code":"PTB",
+	"name":"Pattambi"
+},
+{
+ 	"code":"PAZ",
+	"name":"Payangadi"
+},
+{
+ 	"code":"PAY",
+	"name":"Payyanur"
+},
+{
+ 	"code":"PVRD",
+	"name":"Piravam Road"
+},
+{
+ 	"code":"PUK",
+	"name":"Pudukad"
+},
+{
+ 	"code":"QLD",
+	"name":"Quilandi"
+},
+{
+ 	"code":"QLN",
+	"name":"Quilon Jn"
+},
+{
+ 	"code":"STKT",
+	"name":"Sasthankotta"
+},
+{
+ 	"code":"SRTL",
+	"name":"Shertalai"
+},
+{
+ 	"code":"SRR",
+	"name":"Shoranur Jn"
+},
+{
+ 	"code":"TA",
+	"name":"Tanur"
+},
+{
+ 	"code":"TLY",
+	"name":"Tellicherry"
+},
+{
+ 	"code":"TIR",
+	"name":"Tirur"
+},
+{
+ 	"code":"TRVL",
+	"name":"Tiruvalla"
+},
+{
+ 	"code":"TCR",
+	"name":"Trichur"
+},
+{
+ 	"code":"TRTR",
+	"name":"Tripunithura"
+},
+{
+ 	"code":"TVC",
+	"name":"Trivandrum Cntl"
+},
+{
+ 	"code":"TVP",
+	"name":"Trivandrum Pett"
+},
+{
+ 	"code":"VAPM",
+	"name":"Valapattanam"
+},
+{
+ 	"code":"VARD",
+	"name":"Valkam Road"
+},
+{
+ 	"code":"VLI",
+	"name":"Vallikunnu"
+},
+{
+ 	"code":"VAK",
+	"name":"Varkala"
+},
+{
+ 	"code":"WKI",
+	"name":"Wadakancheri"
+}
+
+]
+}
