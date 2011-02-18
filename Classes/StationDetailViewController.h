@@ -16,7 +16,7 @@
 	NSMutableData *responseData;
 	NSMutableArray *listOfItems;
 	IBOutlet UILabel *trainHeaderLabel;
-	IBOutlet UITableView *tableView;
+	IBOutlet UITableView *trainTableView;
 }
 @property(nonatomic,retain)NSString *stationCode;
 @property(nonatomic,retain) NSString *stationName;

@@ -7,7 +7,6 @@
 //
 
 #import "StationDetailViewController.h"
-#import <regex.h>
 
 @implementation StationDetailViewController
 @synthesize stationCode,stationName,trainHeaderLabel;
@@ -28,7 +27,7 @@
 	for (NSDictionary *dict in data) {
 		[listOfItems addObject:dict];
 	}
-	[tableView reloadData];
+	[trainTableView reloadData];
 	
 }
 	
@@ -73,42 +72,123 @@
 	
 }
 
+/*
 -(NSString*)tableView:(UITableView*)tableView titleForHeaderInSection:(NSInteger)section{
 	if (section==0)		
 	return @"Trains towards South";
 	else 
 	return @"Trains towards North";
+}
+*/
+
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+	UIView *customView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 32)];
+	UIButton *sectionButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	sectionButton.tag = section;
+	sectionButton.frame = customView.frame;
+	[sectionButton setImage:[UIImage imageNamed:@"title_header.png"] forState:UIControlStateNormal];
+	[customView addSubview:sectionButton];
+	
+	UILabel *titleLabel = [[[UILabel alloc] initWithFrame:CGRectMake(5, 10, 320, 15)] autorelease];	// JT 10.07.01
+	titleLabel.textAlignment = UITextAlignmentCenter;
+	titleLabel.backgroundColor = [UIColor clearColor];
+	titleLabel.textColor = [UIColor whiteColor];
+	titleLabel.font = [UIFont boldSystemFontOfSize:14];
+	switch (section) {
+		case 0:
+			titleLabel.text=@"Train towards South";
+			break;
+		case 1:
+			titleLabel.text=@"Train towards North";
+			break;
+		default:
+			break;
+	}
+	[customView addSubview:titleLabel];
+	return [customView autorelease];
+	
 
 	
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+	
+	return 80;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+	return 32;
 }
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    static NSString *CellIdentifier = @"Cell";
+      static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+    cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+		UILabel *trainLabel = [[[UILabel alloc] initWithFrame:CGRectMake(10, 2, 320, 20)] autorelease];	// JT 10.07.01
+		trainLabel.numberOfLines = 2;
+		trainLabel.tag = 1000;
+		trainLabel.backgroundColor = [UIColor clearColor];
+	//	trainLabel.textColor = [UIColor colorWithRed:0.36 green:0.44 blue:0.59 alpha:1.0];
+		trainLabel.font = [UIFont boldSystemFontOfSize:14];
+		[cell.contentView addSubview:trainLabel];
+		
+		
+		UILabel *estimatedTimeLabel = [[[UILabel alloc] initWithFrame:CGRectMake(10, 25, 320, 15)] autorelease];	// JT 10.07.01
+		estimatedTimeLabel.tag = 1001;
+	//	estimatedTimeLabel.textAlignment = UITextAlignmentRight;
+		estimatedTimeLabel.backgroundColor = [UIColor clearColor];
+	//	estimatedTimeLabel.textColor = [UIColor colorWithRed:0.36 green:0.44 blue:0.59 alpha:1.0];
+		estimatedTimeLabel.font = [UIFont boldSystemFontOfSize:13];
+		[cell.contentView addSubview:estimatedTimeLabel];
+		
+		
+		UILabel *scheduledTimeLabel = [[[UILabel alloc] initWithFrame:CGRectMake(10, 42, 320, 15)] autorelease];	// JT 10.07.01
+		scheduledTimeLabel.tag = 1002;
+	//	scheduledTimeLabel.textAlignment = UITextAlignmentRight;
+		scheduledTimeLabel.backgroundColor = [UIColor clearColor];
+	//	scheduledTimeLabel.textColor = [UIColor colorWithRed:0.36 green:0.44 blue:0.59 alpha:1.0];
+		scheduledTimeLabel.font = [UIFont systemFontOfSize:13];
+		[cell.contentView addSubview:scheduledTimeLabel];
+		
+		
+		UILabel *trainNoLabel = [[[UILabel alloc] initWithFrame:CGRectMake(10, 60, 320, 15)] autorelease];	// JT 10.07.01
+		trainNoLabel.numberOfLines = 2;
+		trainNoLabel.tag = 1003;
+	//	trainNoLabel.textAlignment = UITextAlignmentRight;
+		trainNoLabel.backgroundColor = [UIColor clearColor];
+	//	trainNoLabel.textColor = [UIColor colorWithRed:0.36 green:0.44 blue:0.59 alpha:1.0];
+		trainNoLabel.font = [UIFont systemFontOfSize:13];
+		[cell.contentView addSubview:trainNoLabel];
+		
+		
     }
-	cell.textLabel.font=[UIFont fontWithName:@"Verdana" size:13];
+	
+	UILabel *trainLabel = (UILabel *)[cell.contentView viewWithTag:1000];
+	UILabel *estimatedTimeLabel = (UILabel *)[cell.contentView viewWithTag:1001];
+	UILabel *scheduledTimeLabel = (UILabel *)[cell.contentView viewWithTag:1002];
+	UILabel *trainNoLabel = (UILabel *)[cell.contentView viewWithTag:1003];
+	
 	NSDictionary *dict=[listOfItems objectAtIndex:indexPath.section];
 	NSArray *directions=[dict objectForKey:@"south"]?[dict objectForKey:@"south"]:[dict objectForKey:@"north"];
 	
 	if([directions count] <= indexPath.row)
 		{
-			cell.textLabel.text=@"No train available";	
+			trainLabel.text=@"No train available";
+			trainLabel.frame=CGRectMake(95, 32, 320, 15);
 			return cell;
 		}
+
 	NSDictionary *results=[directions objectAtIndex:indexPath.row];
-	NSString *tr=[NSString stringWithFormat:@"%@(%@)%@-%@",
-						 [results objectForKey:@"estimatedTime"],
-						 [results objectForKey:@"scheduledTime"],
-						[results objectForKey:@"trainName"],
-						 [results objectForKey:@"trainNo"]];
-	cell.textLabel.text=tr;
+	estimatedTimeLabel.text = [NSString stringWithFormat:@"Estimated Time - %@",[results objectForKey:@"estimatedTime"]];
+	scheduledTimeLabel.text	= [NSString stringWithFormat:@"Scheduled Time - %@",[results objectForKey:@"scheduledTime"]];
+	trainLabel.text = [results objectForKey:@"trainName"];
+	trainNoLabel.text = [NSString stringWithFormat:@"Train No - %@",[results objectForKey:@"trainNo"]];
+
 	
-	[cell.textLabel setClipsToBounds:YES];
+	NSLog(@"cell");
 	return cell;
 }
 
@@ -123,7 +203,8 @@
 	responseData=[[NSMutableData alloc] retain];
  	trainHeaderLabel.text=[NSString stringWithFormat:@"Arrival at %@",stationName];
 	NSMutableString *url=[NSString stringWithFormat:
-				   @"http://tesandcorc.com/t/arrivals.php?stc=%@&stn=%@",stationCode,stationName];
+						   @"http://10.1.0.49/arrivals.php?stc=%@&stn=%@",stationCode,stationName];
+	
 	url=[url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 	//NSLog(@"%@",url);
 	NSURLRequest *request=[NSURLRequest requestWithURL:[NSURL URLWithString:url]];
