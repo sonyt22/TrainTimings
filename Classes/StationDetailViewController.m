@@ -23,6 +23,7 @@
 */
 #pragma mark extractData
 -(void)extractData:(NSString*)string{
+	NSLog(@"%@",string);
 	NSDictionary *data=[[string JSONValue] objectForKey:@"data"];
 	listOfItems=[[NSMutableArray alloc]init];
 	for (NSDictionary *dict in data) {
@@ -123,7 +124,7 @@
 	responseData=[[NSMutableData alloc] retain];
  	trainHeaderLabel.text=[NSString stringWithFormat:@"Arrival at %@",stationName];
 	NSMutableString *url=[NSString stringWithFormat:
-				   @"http://tesandcorc.com/t/arrivals.php?stc=%@&stn=%@",stationCode,stationName];
+				   @"http://10.1.0.49/arrivals.php?stc=%@&stn=%@",stationCode,stationName];
 	url=[url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 	//NSLog(@"%@",url);
 	NSURLRequest *request=[NSURLRequest requestWithURL:[NSURL URLWithString:url]];
