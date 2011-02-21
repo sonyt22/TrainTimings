@@ -1,31 +1,31 @@
 TTrainTimings
 v7
 r0
-t319978021.895557
+t319980967.919864
 cCheck dependencies
-cProcessInfoPlistFile /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app/Info.plist TrainTimings-Info.plist
-cCompileXIB /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/MainWindow.xib
-cCompileXIB /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.xib
-cCompileXIB /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/TrainsLiveViewController.xib
+cProcessInfoPlistFile "/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/Info.plist" TrainTimings-Info.plist
+cCompileXIB "/Volumes/Untitled 2/Xcode/TrainTimings/MainWindow.xib"
+cCompileXIB "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.xib"
+cCompileXIB "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainsLiveViewController.xib"
 cCpResource build/Debug-iphonesimulator/TrainTimings.app/traincode.json traincode.json
-cCompileXIB /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.xib
+cCompileXIB "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.xib"
 cCpResource build/Debug-iphonesimulator/TrainTimings.app/title_header.png title_header.png
 cCpResource build/Debug-iphonesimulator/TrainTimings.app/train_icon.png train_icon.png
-cProcessPCH /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-ggstcfhxevegbzejgutopmwjxcqq/TrainTimings_Prefix.pch.gch TrainTimings_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/main.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainTimingsAppDelegate.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/TrainTimingsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationViewController.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainsLiveViewController.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/TrainsLiveViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationDetailViewController.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSObject+SBJSON.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSString+SBJSON.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJSON.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonBase.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonParser.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonWriter.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings normal i386
-cGenerateDSYMFile /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app.dSYM /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings
-cTouch /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app
+cProcessPCH /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch.gch TrainTimings_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/main.o "/Volumes/Untitled 2/Xcode/TrainTimings/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainTimingsAppDelegate.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainTimingsAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationViewController.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainsLiveViewController.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainsLiveViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationDetailViewController.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSObject+SBJSON.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSObject+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSString+SBJSON.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSString+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJSON.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonBase.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonParser.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonWriter.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings" normal i386
+cGenerateDSYMFile "/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app.dSYM" "/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings"
+cTouch "/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app"
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
 c000000004CC128950000000000000110
@@ -373,18 +373,316 @@ c000000004D5DC2A00000000000000BED
 t1297990304
 s3053
 
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/JSON.h
+c000000004D624DCC00000000000008F9
+t1298288076
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSObject+SBJSON.h
+c000000004D624DCC0000000000000A01
+t1298288076
+s2561
+i<Foundation/Foundation.h>
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSObject+SBJSON.m
+c000000004D624DCC000000000000089E
+t1298288076
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSString+SBJSON.h
+c000000004D624DCC0000000000000916
+t1298288076
+s2326
+i<Foundation/Foundation.h>
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSString+SBJSON.m
+c000000004D624DCC000000000000087D
+t1298288076
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJSON.h
+c000000004D624DCC0000000000000AED
+t1298288076
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJSON.m
+c000000004D624DCC0000000000001ABC
+t1298288076
+s6844
+i"SBJSON.h"
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonBase.h
+c000000004D624DCC0000000000000B82
+t1298288076
+s2946
+i<Foundation/Foundation.h>
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonBase.m
+c000000004D624DCC0000000000000AC1
+t1298288076
+s2753
+i"SBJsonBase.h"
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonParser.h
+c000000004D624DCC0000000000000C0B
+t1298288076
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonParser.m
+c000000004D624DCC00000000000036D0
+t1298288076
+s14032
+i"SBJsonParser.h"
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonWriter.h
+c000000004D624DCC0000000000001140
+t1298288076
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonWriter.m
+c000000004D624DCC0000000000001F26
+t1298288076
+s7974
+i"SBJsonWriter.h"
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.h
+c000000004D624DCC000000000000029F
+t1298288076
+s671
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m
+c000000004D624DCC000000000000236D
+t1298288076
+s9069
+i"StationDetailViewController.h"
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.xib
+c000000004D624DCC00000000000059D8
+t1298288076
+s23000
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.h
+c000000004D624DCC0000000000000199
+t1298288076
+s409
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m
+c000000004D624DCC00000000000014FF
+t1298288076
+s5375
+i"StationViewController.h"
+i"JSON.h"
+i"StationDetailViewController.h"
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.xib
+c000000004D624DCC0000000000001C8A
+t1298288076
+s7306
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainTimingsAppDelegate.h
+c000000004D624DCC00000000000001EB
+t1298288076
+s491
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainTimingsAppDelegate.m
+c000000004D624DCC0000000000000A7D
+t1298288076
+s2685
+i"TrainTimingsAppDelegate.h"
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainsLiveViewController.h
+c000000004D624DCC00000000000000F2
+t1298288076
+s242
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainsLiveViewController.m
+c000000004D624DCC00000000000005BC
+t1298288076
+s1468
+i"TrainsLiveViewController.h"
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainsLiveViewController.xib
+c000000004D624DCC0000000000001883
+t1298288076
+s6275
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/MainWindow.xib
+c000000004D624DCC000000000000823E
+t1298288076
+s33342
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/TrainTimings_Prefix.pch
+c000000004D624DCC00000000000000C1
+t1298288076
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app
+t1298288167
+s408
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app.dSYM
+t1298288167
+s102
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/Info.plist
+t1298288076
+s651
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/MainWindow.nib
+t1298288076
+s2170
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/PkgInfo
+t1298288076
+s8
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/StationDetailViewController.nib
+t1298288076
+s1651
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/StationViewController.nib
+t1298288076
+s979
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings
+t1298288167
+s75036
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/TrainsLiveViewController.nib
+t1298288076
+s764
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/title_header.png
+t1298288076
+s293
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/train_icon.png
+t1298288076
+s101314
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/traincode.json
+t1298288076
+s3053
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSObject+SBJSON.o
+t1298288167
+s8300
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSString+SBJSON.o
+t1298288167
+s8220
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJSON.o
+t1298288167
+s20088
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonBase.o
+t1298288167
+s13220
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonParser.o
+t1298288167
+s35888
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonWriter.o
+t1298288167
+s25556
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationDetailViewController.o
+t1298288167
+s75652
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationViewController.o
+t1298288167
+s49108
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainTimings.LinkFileList
+c000000004D624E260000000000000629
+t1298288166
+s1577
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainTimingsAppDelegate.o
+t1298288167
+s53756
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainsLiveViewController.o
+t1298288167
+s37764
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/main.o
+t1298288167
+s6304
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/main.m
+c000000004D624DCC0000000000000167
+t1298288076
+s359
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/title_header.png
+c000000004D624DCC0000000000000125
+t1298288076
+s293
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/train_icon.png
+c000000004D624DCC0000000000018BC2
+t1298288076
+s101314
+
+N/Volumes/Untitled 2/Xcode/TrainTimings/traincode.json
+c000000004D624DCC0000000000000BED
+t1298288076
+s3053
+
+N/var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch.gch
+t1298288167
+s15453392
+
 N/var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-ggstcfhxevegbzejgutopmwjxcqq/TrainTimings_Prefix.pch.gch
 t1298285184
 s15453392
 
 NTrainTimings-Info.plist
-c000000004D5DC2A0000000000000039B
-t1297990304
+c000000004D624DCC000000000000039B
+t1298288076
 s923
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies319978021#319978021#0(0"0(0#1#0"8623280672#0"0#
+lSLF07#2@18"Check dependencies319980966#319980966#0(0"0(0#1#0"8600088576#0"0#
+
+CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSObject+SBJSON.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSObject+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319980967.488872
+e319980967.562505
+r1
+xCompileC
+xbuild/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSObject+SBJSON.m319980967#319980967#0(0"0(0#0#69"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSObject+SBJSON.m8618801536#2071"    cd "/Volumes/Untitled 2/Xcode/TrainTimings"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap" -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap" "-F/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/include" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources" -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch -c "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSObject+SBJSON.m" -o "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSObject+SBJSON.o"0#
 
 CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSObject+SBJSON.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/../../tools/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s319977984.797929
@@ -415,6 +713,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@91"Compile /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/NSObject+SBJSON.m319978016#319978016#0(0"0(0#0#83"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/NSObject+SBJSON.m8627110592#2203"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap -F/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/include -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386 -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-ggstcfhxevegbzejgutopmwjxcqq/TrainTimings_Prefix.pch -c /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/NSObject+SBJSON.m -o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSObject+SBJSON.o0#
 
+CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSString+SBJSON.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSString+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319980967.562608
+e319980967.655618
+r1
+xCompileC
+xbuild/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSString+SBJSON.o
+x/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSString+SBJSON.m319980967#319980967#0(0"0(0#0#69"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSString+SBJSON.m8623426112#2071"    cd "/Volumes/Untitled 2/Xcode/TrainTimings"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap" -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap" "-F/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/include" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources" -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch -c "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/NSString+SBJSON.m" -o "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSString+SBJSON.o"0#
+
 CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSString+SBJSON.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/../../tools/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s319977984.812231
 e319977984.818254
@@ -443,6 +754,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@91"Compile /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/NSString+SBJSON.m319978016#319978016#0(0"0(0#0#83"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/NSString+SBJSON.m8625857824#2203"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap -F/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/include -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386 -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-ggstcfhxevegbzejgutopmwjxcqq/TrainTimings_Prefix.pch -c /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/NSString+SBJSON.m -o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJSON.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319980967.644264
+e319980967.739356
+r1
+xCompileC
+xbuild/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJSON.o
+x/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJSON.m319980967#319980967#0(0"0(0#0#60"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJSON.m8622972864#2053"    cd "/Volumes/Untitled 2/Xcode/TrainTimings"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap" -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap" "-F/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/include" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources" -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch -c "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJSON.m" -o "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJSON.o"0#
 
 CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJSON.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/../../tools/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s319977984.818399
@@ -473,6 +797,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@82"Compile /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJSON.m319978016#319978016#0(0"0(0#0#74"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJSON.m8623788864#2185"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap -F/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/include -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386 -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-ggstcfhxevegbzejgutopmwjxcqq/TrainTimings_Prefix.pch -c /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJSON.m -o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJSON.o0#
 
+CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonBase.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319980967.655719
+e319980967.725651
+r1
+xCompileC
+xbuild/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonBase.o
+x/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonBase.m319980967#319980967#0(0"0(0#0#64"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonBase.m8620769792#2061"    cd "/Volumes/Untitled 2/Xcode/TrainTimings"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap" -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap" "-F/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/include" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources" -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch -c "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonBase.m" -o "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonBase.o"0#
+
 CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonBase.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/../../tools/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s319977984.825709
 e319977984.838261
@@ -501,6 +838,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@86"Compile /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJsonBase.m319978016#319978016#0(0"0(0#0#78"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJsonBase.m8623092832#2193"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap -F/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/include -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386 -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-ggstcfhxevegbzejgutopmwjxcqq/TrainTimings_Prefix.pch -c /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJsonBase.m -o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonParser.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319980967.725775
+e319980967.859772
+r1
+xCompileC
+xbuild/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonParser.o
+x/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonParser.m319980967#319980967#0(0"0(0#0#66"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonParser.m8601773728#2065"    cd "/Volumes/Untitled 2/Xcode/TrainTimings"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap" -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap" "-F/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/include" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources" -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch -c "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonParser.m" -o "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonParser.o"0#
 
 CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonParser.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/../../tools/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s319977984.838370
@@ -531,6 +881,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@88"Compile /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJsonParser.m319978016#319978016#0(0"0(0#0#80"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJsonParser.m8619378688#2197"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap -F/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/include -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386 -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-ggstcfhxevegbzejgutopmwjxcqq/TrainTimings_Prefix.pch -c /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJsonParser.m -o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonParser.o0#
 
+CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonWriter.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319980967.739452
+e319980967.854253
+r1
+xCompileC
+xbuild/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonWriter.o
+x/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonWriter.m319980967#319980967#0(0"0(0#0#66"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonWriter.m8598297760#2065"    cd "/Volumes/Untitled 2/Xcode/TrainTimings"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap" -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap" "-F/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/include" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources" -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch -c "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/JSON/SBJsonWriter.m" -o "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonWriter.o"0#
+
 CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonWriter.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/../../tools/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s319977984.850370
 e319977984.857723
@@ -560,6 +923,26 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@88"Compile /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJsonWriter.m319978016#319978016#0(0"0(0#0#80"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJsonWriter.m8627502720#2197"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap -F/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/include -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386 -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-ggstcfhxevegbzejgutopmwjxcqq/TrainTimings_Prefix.pch -c /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/JSON/SBJsonWriter.m -o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/SBJsonWriter.o0#
 
+CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationDetailViewController.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319980967.471551
+e319980967.644159
+r1
+xCompileC
+xbuild/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationDetailViewController.o
+x/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m: In function '-[StationDetailViewController extractData:]':
+o/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m:25: warning: 'NSString' may not respond to '-JSONValue'
+o/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m:25: warning: (Messages without a matching method signature
+o/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m:25: warning: will be assumed to return 'id' and accept
+o/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m:25: warning: '...' as arguments.)
+o/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m: In function '-[StationDetailViewController viewDidLoad]':
+o/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m:208: warning: incompatible Objective-C types assigning 'struct NSString *', expected 'struct NSMutableString *'
+lSLF07#2@84"Compile /Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m319980967#319980967#0(974"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m: In function '-[StationDetailViewController extractData:]':/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m:25: warning: 'NSString' may not respond to '-JSONValue'/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m:25: warning: (Messages without a matching method signature/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m:25: warning: will be assumed to return 'id' and accept/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m:25: warning: '...' as arguments.)/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m: In function '-[StationDetailViewController viewDidLoad]':/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m:208: warning: incompatible Objective-C types assigning 'struct NSString *', expected 'struct NSMutableString *'3(22@42"'NSString' may not respond to '-JSONValue'319980967#137#133#0(6@76"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m319980876#25#0#25#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)319980967#270#136#0(6@76"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m319980876#25#0#25#0#0"0(22@97"Incompatible Objective-C types assigning 'struct NSString *', expected 'struct NSMutableString *'319980967#785#189#0(6@76"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m319980876#208#0#208#0#58"incompatible Objective-C types assigning '*', expected '*'0(0#0#76"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m8624526656#2090"    cd "/Volumes/Untitled 2/Xcode/TrainTimings"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap" -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap" "-F/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/include" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources" -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch -c "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.m" -o "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationDetailViewController.o"0#
+
 CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationDetailViewController.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s319977984.731412
 e319977984.898072
@@ -579,6 +962,27 @@ o/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewC
 o/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m: In function '-[StationDetailViewController viewDidLoad]':
 o/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m:208: warning: incompatible Objective-C types assigning 'struct NSString *', expected 'struct NSMutableString *'
 lSLF07#2@98"Compile /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m319977984#319977984#0(1072"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m: In function '-[StationDetailViewController extractData:]':/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m:25: warning: 'NSString' may not respond to '-JSONValue'/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m:25: warning: (Messages without a matching method signature/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m:25: warning: will be assumed to return 'id' and accept/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m:25: warning: '...' as arguments.)/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m: In function '-[StationDetailViewController viewDidLoad]':/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m:208: warning: incompatible Objective-C types assigning 'struct NSString *', expected 'struct NSMutableString *'3(22@42"'NSString' may not respond to '-JSONValue'319977984#151#147#0(6@90"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m319683104#25#0#25#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)319977984#298#150#0(6@90"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m319683104#25#0#25#0#0"0(22@97"Incompatible Objective-C types assigning 'struct NSString *', expected 'struct NSMutableString *'319977984#869#203#0(6@90"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m319683104#208#0#208#0#58"incompatible Objective-C types assigning '*', expected '*'0(0#0#90"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m8622949952#2222"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap -F/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/include -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386 -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-ggstcfhxevegbzejgutopmwjxcqq/TrainTimings_Prefix.pch -c /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.m -o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationDetailViewController.o0#
+
+CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationViewController.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319980967.375912
+e319980967.488769
+r1
+xCompileC
+xbuild/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationViewController.o
+x/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m: In function '-[StationViewController tableView:cellForRowAtIndexPath:]':
+o/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m:90: warning: 'NSDictionary' may not respond to '-objectAtIndex:'
+o/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m:90: warning: (Messages without a matching method signature
+o/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m:90: warning: will be assumed to return 'id' and accept
+o/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m:90: warning: '...' as arguments.)
+o/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m: In function '-[StationViewController tableView:didSelectRowAtIndexPath:]':
+o/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m:145: warning: 'NSDictionary' may not respond to '-objectAtIndex:'
+o/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m:146: warning: 'NSDictionary' may not respond to '-objectAtIndex:'
+lSLF07#2@78"Compile /Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m319980967#319980967#0(1063"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m: In function '-[StationViewController tableView:cellForRowAtIndexPath:]':/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m:90: warning: 'NSDictionary' may not respond to '-objectAtIndex:'/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m:90: warning: (Messages without a matching method signature/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m:90: warning: will be assumed to return 'id' and accept/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m:90: warning: '...' as arguments.)/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m: In function '-[StationViewController tableView:didSelectRowAtIndexPath:]':/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m:145: warning: 'NSDictionary' may not respond to '-objectAtIndex:'/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m:146: warning: 'NSDictionary' may not respond to '-objectAtIndex:'4(22@51"'NSDictionary' may not respond to '-objectAtIndex:'319980967#145#136#0(6@70"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m319980876#90#0#90#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)319980967#281#130#0(6@70"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m319980876#90#0#90#0#0"0(22@51"'NSDictionary' may not respond to '-objectAtIndex:'319980967#789#137#0(6@70"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m319980876#145#0#145#0#26"'*' may not respond to '*'0(22@51"'NSDictionary' may not respond to '-objectAtIndex:'319980967#926#137#0(6@70"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m319980876#146#0#146#0#26"'*' may not respond to '*'0(0#0#70"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m8622815680#2078"    cd "/Volumes/Untitled 2/Xcode/TrainTimings"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap" -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap" "-F/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/include" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources" -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch -c "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.m" -o "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationViewController.o"0#
 
 CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationViewController.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s319978016.451452
@@ -601,6 +1005,19 @@ o/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewControl
 o/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m:146: warning: 'NSDictionary' may not respond to '-objectAtIndex:'
 lSLF07#2@92"Compile /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m319978016#319978016#0(1175"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m: In function '-[StationViewController tableView:cellForRowAtIndexPath:]':/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m:90: warning: 'NSDictionary' may not respond to '-objectAtIndex:'/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m:90: warning: (Messages without a matching method signature/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m:90: warning: will be assumed to return 'id' and accept/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m:90: warning: '...' as arguments.)/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m: In function '-[StationViewController tableView:didSelectRowAtIndexPath:]':/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m:145: warning: 'NSDictionary' may not respond to '-objectAtIndex:'/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m:146: warning: 'NSDictionary' may not respond to '-objectAtIndex:'4(22@51"'NSDictionary' may not respond to '-objectAtIndex:'319978016#159#150#0(6@84"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m319683104#90#0#90#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)319978016#309#144#0(6@84"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m319683104#90#0#90#0#0"0(22@51"'NSDictionary' may not respond to '-objectAtIndex:'319978016#873#151#0(6@84"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m319683104#145#0#145#0#26"'*' may not respond to '*'0(22@51"'NSDictionary' may not respond to '-objectAtIndex:'319978016#1024#151#0(6@84"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m319683104#146#0#146#0#26"'*' may not respond to '*'0(0#0#84"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m8624167296#2210"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap -F/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/include -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386 -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-ggstcfhxevegbzejgutopmwjxcqq/TrainTimings_Prefix.pch -c /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationViewController.m -o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/StationViewController.o0#
 
+CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainTimingsAppDelegate.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainTimingsAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319980967.302920
+e319980967.398608
+r1
+xCompileC
+xbuild/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainTimingsAppDelegate.o
+x/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainTimingsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainTimingsAppDelegate.m319980967#319980967#0(0"0(0#0#72"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainTimingsAppDelegate.m8590313696#2082"    cd "/Volumes/Untitled 2/Xcode/TrainTimings"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap" -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap" "-F/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/include" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources" -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch -c "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainTimingsAppDelegate.m" -o "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainTimingsAppDelegate.o"0#
+
 CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainTimingsAppDelegate.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/TrainTimingsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s319977984.567880
 e319977984.693647
@@ -613,6 +1030,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@94"Compile /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/TrainTimingsAppDelegate.m319977984#319977984#0(0"0(0#0#86"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/TrainTimingsAppDelegate.m8621710944#2214"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap -F/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/include -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386 -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-ggstcfhxevegbzejgutopmwjxcqq/TrainTimings_Prefix.pch -c /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/TrainTimingsAppDelegate.m -o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainTimingsAppDelegate.o0#
+
+CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainsLiveViewController.o "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainsLiveViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319980967.398712
+e319980967.471176
+r1
+xCompileC
+xbuild/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainsLiveViewController.o
+x/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainsLiveViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainsLiveViewController.m319980967#319980967#0(0"0(0#0#73"/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainsLiveViewController.m8620064480#2084"    cd "/Volumes/Untitled 2/Xcode/TrainTimings"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap" -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap" "-F/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/include" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources" -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch -c "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainsLiveViewController.m" -o "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainsLiveViewController.o"0#
 
 CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainsLiveViewController.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/TrainsLiveViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s319977984.693816
@@ -627,6 +1057,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@95"Compile /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/TrainsLiveViewController.m319977984#319977984#0(0"0(0#0#87"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/TrainsLiveViewController.m8626019744#2216"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap -F/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/include -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386 -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-ggstcfhxevegbzejgutopmwjxcqq/TrainTimings_Prefix.pch -c /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/TrainsLiveViewController.m -o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainsLiveViewController.o0#
 
+CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/main.o "/Volumes/Untitled 2/Xcode/TrainTimings/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319980967.301889
+e319980967.375806
+r1
+xCompileC
+xbuild/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/main.o
+x/Volumes/Untitled 2/Xcode/TrainTimings/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Volumes/Untitled 2/Xcode/TrainTimings/main.m319980967#319980967#0(0"0(0#0#45"/Volumes/Untitled 2/Xcode/TrainTimings/main.m8623768736#2036"    cd "/Volumes/Untitled 2/Xcode/TrainTimings"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap" -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap" "-F/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/include" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources" -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch -c "/Volumes/Untitled 2/Xcode/TrainTimings/main.m" -o "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/main.o"0#
+
 CCompileC build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/main.o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s319977984.566869
 e319977984.640772
@@ -639,6 +1082,18 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@67"Compile /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/main.m319977984#319977984#0(0"0(0#0#59"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/main.m8618872128#2168"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap -F/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/include -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386 -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources -include /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-ggstcfhxevegbzejgutopmwjxcqq/TrainTimings_Prefix.pch -c /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/main.m -o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/main.o0#
+
+CCompileXIB "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationDetailViewController.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/StationViewController.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/Xcode/TrainTimings/Classes/TrainsLiveViewController.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/Xcode/TrainTimings/MainWindow.xib"
+r0
 
 CCompileXIB /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/Classes/StationDetailViewController.xib
 s319977983.416211
@@ -699,6 +1154,15 @@ xbuild/Debug-iphonesimulator/TrainTimings.app/traincode.json
 xtraincode.json
 lSLF07#2@19"Copy traincode.json319977983#319977983#0(0"0(0#0#67"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/traincode.json8614244512#519"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/traincode.json /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app0#
 
+CGenerateDSYMFile "/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app.dSYM" "/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings"
+s319980967.895890
+e319980967.917345
+r1
+xGenerateDSYMFile
+x/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app.dSYM
+x/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/TrainTimings.app.dSYM build/Debug-iphonesimulator/TrainTimings.app/TrainTimings319980967#319980967#0(0"0(0#0#96"/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings8621798784#404"    cd "/Volumes/Untitled 2/Xcode/TrainTimings"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings" -o "/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app.dSYM"0#
+
 CGenerateDSYMFile /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app.dSYM /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings
 s319978016.888702
 e319978016.908432
@@ -707,6 +1171,16 @@ xGenerateDSYMFile
 x/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app.dSYM
 x/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings
 lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/TrainTimings.app.dSYM build/Debug-iphonesimulator/TrainTimings.app/TrainTimings319978016#319978016#0(0"0(0#0#110"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings8623406176#440"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings -o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app.dSYM0#
+
+CLd "/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings" normal i386
+s319980967.859862
+e319980967.895788
+r1
+xLd
+x/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings
+xnormal
+xi386
+lSLF07#2@101"Link /Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings319980967#319980967#0(0"0(0#0#0"8620895616#945"    cd "/Volumes/Untitled 2/Xcode/TrainTimings"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator" "-F/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator" -filelist "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainTimings.LinkFileList" -mmacosx-version-min=10.6 -licucore -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings"0#
 
 CLd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings normal i386
 s319978016.857822
@@ -718,6 +1192,9 @@ xnormal
 xi386
 lSLF07#2@115"Link /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings319978016#319978016#0(0"0(0#0#0"8626344896#1005"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator -F/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator -filelist /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/Objects-normal/i386/TrainTimings.LinkFileList -mmacosx-version-min=10.6 -licucore -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app/TrainTimings0#
 
+CProcessInfoPlistFile "/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app/Info.plist" TrainTimings-Info.plist
+r0
+
 CProcessInfoPlistFile /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app/Info.plist TrainTimings-Info.plist
 s319977982.907841
 e319977982.911094
@@ -726,6 +1203,19 @@ xProcessInfoPlistFile
 x/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app/Info.plist
 xTrainTimings-Info.plist
 lSLF07#2@31"Process TrainTimings-Info.plist319977982#319977982#0(0"0(0#0#76"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/TrainTimings-Info.plist8622056160#536"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TrainTimings-Info.plist -genpkginfo /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app/Info.plist0#
+
+CProcessPCH /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch.gch TrainTimings_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s319980966.487850
+e319980967.301777
+r1
+xProcessPCH
+x/var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch.gch
+xTrainTimings_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile TrainTimings_Prefix.pch319980966#319980967#0(0"0(0#0#62"/Volumes/Untitled 2/Xcode/TrainTimings/TrainTimings_Prefix.pch8598517088#1921"    cd "/Volumes/Untitled 2/Xcode/TrainTimings"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap" -iquote "/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap" "-F/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/include" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386" "-I/Volumes/Untitled 2/Xcode/TrainTimings/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources" -c "/Volumes/Untitled 2/Xcode/TrainTimings/TrainTimings_Prefix.pch" -o /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-cihstxemitvatpfcfsopjawftdee/TrainTimings_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-ggstcfhxevegbzejgutopmwjxcqq/TrainTimings_Prefix.pch.gch TrainTimings_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s319977983.871414
@@ -739,6 +1229,14 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@34"Precompile TrainTimings_Prefix.pch319977983#319977984#0(0"0(0#0#76"/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/TrainTimings_Prefix.pch8625875488#2041"    cd /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-generated-files.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-own-target-headers.hmap -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-all-target-headers.hmap -iquote /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/TrainTimings-project-headers.hmap -F/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/include -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources/i386 -I/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/TrainTimings.build/Debug-iphonesimulator/TrainTimings.build/DerivedSources -c /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/TrainTimings_Prefix.pch -o /var/folders/XI/XI9+L9VKHnulapP6YGdsxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrainTimings_Prefix-ggstcfhxevegbzejgutopmwjxcqq/TrainTimings_Prefix.pch.gch0#
+
+CTouch "/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app"
+s319980967.917438
+e319980967.919816
+r1
+xTouch
+x/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app
+lSLF07#2@89"Touch /Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app319980967#319980967#0(0"0(0#0#0"8615739968#287"    cd "/Volumes/Untitled 2/Xcode/TrainTimings"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Volumes/Untitled 2/Xcode/TrainTimings/build/Debug-iphonesimulator/TrainTimings.app"0#
 
 CTouch /Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/build/Debug-iphonesimulator/TrainTimings.app
 s319978016.908520
