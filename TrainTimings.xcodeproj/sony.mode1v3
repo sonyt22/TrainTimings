@@ -264,7 +264,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>EB9C9203130EB5C300C55D30</string>
@@ -273,7 +272,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -316,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>StationDetailViewController.m</string>
+								<string>StationViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,16 +322,15 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>StationDetailViewController.m</string>
+										<string>StationViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>EBAA0BFF13127F85000D7877</string>
+										<string>EBAA0BD813127A56000D7877</string>
 										<key>history</key>
 										<array>
 											<string>EB8DA23F12FFBA7000D9F6FD</string>
 											<string>EB8886241300FABD0046A6EE</string>
-											<string>EB8886401300FEB10046A6EE</string>
 											<string>EB672E1B13024C3C00D1587C</string>
 											<string>EB7FC43C130AC5ED00E453FE</string>
 											<string>EB7FC43E130AC5ED00E453FE</string>
@@ -344,7 +341,8 @@
 											<string>EB9C9212130EB6CF00C55D30</string>
 											<string>EB9C9213130EB6CF00C55D30</string>
 											<string>EB9C9214130EB6CF00C55D30</string>
-											<string>EB9C921C130EB76C00C55D30</string>
+											<string>EBAA0BD613127A56000D7877</string>
+											<string>EBAA0BD713127A56000D7877</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -402,9 +400,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>EBAA0C0013127F85000D7877</string>
+				<string>EBAA0BD913127A56000D7877</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>EBAA0C0113127F85000D7877</string>
+				<string>EBAA0BDA13127A56000D7877</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -545,7 +543,7 @@
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>EB8DA13112FFA08300D9F6FD</string>
-		<string>/Volumes/Untitled 2/Xcode/TrainTimings/TrainTimings.xcodeproj</string>
+		<string>/Users/sony/Downloads/sonyt22-TrainTimings-9494369-1/TrainTimings.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 146 1024 600 0 0 1024 746 </string>
@@ -569,7 +567,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>StationViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -586,6 +584,8 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -625,7 +625,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>EB8DA13112FFA08300D9F6FD</string>
-				<string>EBAA0C0213127F85000D7877</string>
+				<string>EBAA0BBA13127A09000D7877</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -747,13 +747,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>EBAA0C0313127F85000D7877</string>
+				<string>EBAA0BDB13127A56000D7877</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>EBAA0C0413127F85000D7877</string>
-				<string>EBAA0C0513127F85000D7877</string>
-				<string>EBAA0C0613127F85000D7877</string>
-				<string>EBAA0C0713127F85000D7877</string>
-				<string>EBAA0C0813127F85000D7877</string>
+				<string>EBAA0BDC13127A56000D7877</string>
+				<string>EBAA0BDD13127A56000D7877</string>
+				<string>EBAA0BDE13127A56000D7877</string>
+				<string>EBAA0BDF13127A56000D7877</string>
+				<string>EBAA0BE013127A56000D7877</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -907,7 +907,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>EBAA0C0913127F85000D7877</string>
+				<string>EBAA0BE113127A56000D7877</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
