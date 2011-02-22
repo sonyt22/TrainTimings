@@ -7,6 +7,7 @@
 //
 
 #import "StationDetailViewController.h"
+#import "TrainsAtStationViewController.h"
 
 @implementation StationDetailViewController
 @synthesize stationCode,stationName,trainHeaderLabel;
@@ -196,6 +197,16 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	TrainsAtStationViewController *detailVC =[ [TrainsAtStationViewController alloc] 
+											  initWithNibName:@"TrainsAtStationViewController"
+											  bundle:nil];
+	NSDictionary *dict=[listOfItems objectAtIndex:indexPath.section];
+	NSArray *directions=[dict objectForKey:@"south"]?[dict objectForKey:@"south"]:[dict objectForKey:@"north"];
+	NSDictionary *results=[directions objectAtIndex:indexPath.row];
+	detailVC.tno = [NSString stringWithFormat:@"%@",[results objectForKey:@"trainNo"]];
+	detailVC.tname = [NSString stringWithFormat:@"%@",[results objectForKey:@"trainName"]];
+	[self.navigationController pushViewController:detailVC animated:YES];
+	
 }
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.

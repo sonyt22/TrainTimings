@@ -22,6 +22,8 @@
 		EB8DA17812FFAE8E00D9F6FD /* traincode.json in Resources */ = {isa = PBXBuildFile; fileRef = EB8DA17712FFAE8E00D9F6FD /* traincode.json */; };
 		EB9C91D4130EB07800C55D30 /* title_header.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9C91D3130EB07800C55D30 /* title_header.png */; };
 		EB9C920C130EB68900C55D30 /* train_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9C920B130EB68900C55D30 /* train_icon.png */; };
+		EBA155D913136B950059D96A /* TrainsAtStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA155D713136B950059D96A /* TrainsAtStationViewController.m */; };
+		EBA155DA13136B950059D96A /* TrainsAtStationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA155D813136B950059D96A /* TrainsAtStationViewController.xib */; };
 		EBAA0BCA13127A1D000D7877 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0BBF13127A1D000D7877 /* NSObject+SBJSON.m */; };
 		EBAA0BCB13127A1D000D7877 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0BC113127A1D000D7877 /* NSString+SBJSON.m */; };
 		EBAA0BCC13127A1D000D7877 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0BC313127A1D000D7877 /* SBJSON.m */; };
@@ -53,6 +55,9 @@
 		EB8DA17712FFAE8E00D9F6FD /* traincode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = traincode.json; sourceTree = "<group>"; };
 		EB9C91D3130EB07800C55D30 /* title_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_header.png; sourceTree = "<group>"; };
 		EB9C920B130EB68900C55D30 /* train_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = train_icon.png; sourceTree = "<group>"; };
+		EBA155D613136B950059D96A /* TrainsAtStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainsAtStationViewController.h; sourceTree = "<group>"; };
+		EBA155D713136B950059D96A /* TrainsAtStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainsAtStationViewController.m; sourceTree = "<group>"; };
+		EBA155D813136B950059D96A /* TrainsAtStationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TrainsAtStationViewController.xib; path = Classes/TrainsAtStationViewController.xib; sourceTree = "<group>"; };
 		EBAA0BBD13127A1D000D7877 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		EBAA0BBE13127A1D000D7877 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		EBAA0BBF13127A1D000D7877 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -94,6 +99,8 @@
 				EB8DA13F12FFA3D700D9F6FD /* TrainsLiveViewController.m */,
 				EB8885841300F2900046A6EE /* StationDetailViewController.h */,
 				EB8885851300F2900046A6EE /* StationDetailViewController.m */,
+				EBA155D613136B950059D96A /* TrainsAtStationViewController.h */,
+				EBA155D713136B950059D96A /* TrainsAtStationViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -132,6 +139,7 @@
 			children = (
 				EB9C9203130EB5C300C55D30 /* Images */,
 				EB8885861300F2900046A6EE /* StationDetailViewController.xib */,
+				EBA155D813136B950059D96A /* TrainsAtStationViewController.xib */,
 				EB8DA17712FFAE8E00D9F6FD /* traincode.json */,
 				EB8DA14012FFA3D800D9F6FD /* TrainsLiveViewController.xib */,
 				EB8DA13B12FFA3AE00D9F6FD /* StationViewController.xib */,
@@ -239,6 +247,7 @@
 				EB8885881300F2900046A6EE /* StationDetailViewController.xib in Resources */,
 				EB9C91D4130EB07800C55D30 /* title_header.png in Resources */,
 				EB9C920C130EB68900C55D30 /* train_icon.png in Resources */,
+				EBA155DA13136B950059D96A /* TrainsAtStationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +269,7 @@
 				EBAA0BCD13127A1D000D7877 /* SBJsonBase.m in Sources */,
 				EBAA0BCE13127A1D000D7877 /* SBJsonParser.m in Sources */,
 				EBAA0BCF13127A1D000D7877 /* SBJsonWriter.m in Sources */,
+				EBA155D913136B950059D96A /* TrainsAtStationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
