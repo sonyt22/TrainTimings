@@ -24,6 +24,7 @@
 		EB9C920C130EB68900C55D30 /* train_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9C920B130EB68900C55D30 /* train_icon.png */; };
 		EBA155D913136B950059D96A /* TrainsAtStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA155D713136B950059D96A /* TrainsAtStationViewController.m */; };
 		EBA155DA13136B950059D96A /* TrainsAtStationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA155D813136B950059D96A /* TrainsAtStationViewController.xib */; };
+		EBA157581313ADAD0059D96A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA157571313ADAD0059D96A /* MapKit.framework */; };
 		EBAA0BCA13127A1D000D7877 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0BBF13127A1D000D7877 /* NSObject+SBJSON.m */; };
 		EBAA0BCB13127A1D000D7877 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0BC113127A1D000D7877 /* NSString+SBJSON.m */; };
 		EBAA0BCC13127A1D000D7877 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0BC313127A1D000D7877 /* SBJSON.m */; };
@@ -58,6 +59,7 @@
 		EBA155D613136B950059D96A /* TrainsAtStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainsAtStationViewController.h; sourceTree = "<group>"; };
 		EBA155D713136B950059D96A /* TrainsAtStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainsAtStationViewController.m; sourceTree = "<group>"; };
 		EBA155D813136B950059D96A /* TrainsAtStationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TrainsAtStationViewController.xib; path = Classes/TrainsAtStationViewController.xib; sourceTree = "<group>"; };
+		EBA157571313ADAD0059D96A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EBAA0BBD13127A1D000D7877 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		EBAA0BBE13127A1D000D7877 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		EBAA0BBF13127A1D000D7877 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				EBA157581313ADAD0059D96A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +124,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				EBA157571313ADAD0059D96A /* MapKit.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
