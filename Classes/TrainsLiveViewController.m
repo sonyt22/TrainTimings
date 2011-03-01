@@ -7,44 +7,72 @@
 //
 
 #import "TrainsLiveViewController.h"
+#import "JSON.h"
 #import <MapKit/MapKit.h>
-
-@implementation AddressAnnotation
-@synthesize coordinate;
-
-- (NSString *)subtitle{
-	return @"Sub Title";
-}
-- (NSString *)title{
-	return @"Title";
-}
-
--(id)initWithCoordinate:(CLLocationCoordinate2D) c{
-	coordinate=c;
-	NSLog(@"%f,%f",c.latitude,c.longitude);
-	return self;
-}
-
-@end
-
-
-
+#import "MapOperation.h"
+#import "MapAnnotation.h"
 
 @implementation TrainsLiveViewController
+@synthesize opQueue;
 
-- (void)extractData:(NSString *)string {
+-(void)extractData:(NSString*)string{
+	//	NSLog(@"%@",string);
+	NSMutableArray *listOfItems =[[ NSMutableArray alloc] init];
+	south = [[NSDictionary alloc] init];
+	NSDictionary *data=[[string JSONValue] objectForKey:@"data"];
 	
-	NSDictionary *data = [[string JSONValue] objectForKey:@"data"];
-	NSMutableArray *listOfItems = [[NSMutableArray alloc] init];
 	for (NSDictionary *dict in data) {
-		//NSLog(@"%@",[dict objectForKey:@"leftStation"]);	
-		[listOfItems addObject:[dict objectForKey:@"leftStation"]];	
+//		prevStation
+		[listOfItems addObject:dict];
+	}
+	
+	south = [[listOfItems objectAtIndex:0] objectForKey:@"south"];
+	for (NSDictionary *dict in south) {
+		//NSLog(@"%@",[dict objectForKey:@"prevStation"]);
+		[self getCoordinatesFromLocation:[dict objectForKey:@"prevStation"]];
 		
 	}
-	[self showAddress:listOfItems];
-//	NSLog(@"%@",listOfItems);
+	[UIApplication sharedApplication].networkActivityIndicatorVisible=NO;
 	
 }
+
+#pragma mark label
+#pragma mark operation delegates
+- (void) getCoordinatesFromLocation:(NSString *)location {
+
+	NSLog(@"added  queue");
+	MapOperation *mapOperation = [[MapOperation alloc]  
+								  initWithLocation:location target:self targetMethod:@selector(storeCoordinates:)];
+	
+	[self.opQueue addOperation:mapOperation];
+	[mapOperation release];
+}
+
+
+- (void)storeCoordinates:(NSMutableArray *)coordinates {
+	CLLocationCoordinate2D location;
+	location.latitude = [[coordinates objectAtIndex:0] doubleValue];
+	location.longitude = [[coordinates objectAtIndex:1] doubleValue];
+	
+	MapAnnotation *annotation = [[MapAnnotation alloc] initWithCoordinate:location];
+	NSString *locationName = [NSString stringWithFormat:@"%@",[coordinates objectAtIndex:2]];
+	
+	for (NSDictionary *dict in south) {
+		if (CFEqual(locationName,[dict objectForKey:@"prevStation"])) {
+			annotation.title = [dict objectForKey:@"trainName"];
+			annotation.subtitle = [NSString stringWithFormat:@"left %@ at %@",
+							[dict objectForKey:@"prevStation"],[dict objectForKey:@"estimatedTimePrev"]];
+		}
+	}
+	
+	
+	MKCoordinateRegion region = {location , {1,1}};
+	[mapView setRegion:region];
+	[mapView addAnnotation:annotation];
+	[annotation release];
+}
+
+#pragma mark label
 #pragma mark  Connection delegate
 -(void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse*)response{
 	[responseData setLength:0];
@@ -52,13 +80,13 @@
 }
 
 -(void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data{
-	//NSLog(@"Received data --%d bytes",[NSNumber numberWithUnsignedInt:[data length]]);
+	//	NSLog(@"Received data --%d bytes",[NSNumber numberWithUnsignedInt:[data length]]);
 	[responseData appendData:data];
 }
 
 
 -(void)connection:(NSURLConnection *)connection didFailWithError:(NSError*)error{
-		NSLog(@"Failed with error -%@",[error description]);
+	//	NSLog(@"Failed with error -%@",[error description]);
 }
 
 -(void)connectionDidFinishLoading:(NSURLConnection *)connection{
@@ -68,82 +96,6 @@
 	[self extractData:responseString];
 }
 
-#pragma mark MAP 
-
-- (void) showAddress: (NSMutableArray *)locationNameArray {
-	MKCoordinateRegion region;
-	MKCoordinateSpan span;
-
-	span.latitudeDelta=0.2;
-	span.longitudeDelta=0.2;
-	
-	for (NSString * locationNamestring in locationNameArray) {
-//		NSLog(@"%@",locationNamestring);
-	CLLocationCoordinate2D location = [self addressLocation:locationNamestring];
-	region.span=span;
-	region.center=location;
-	
-	if(addAnnotation != nil)
-	{
-	//	[mapView removeAnnotation:addAnnotation];
-		[addAnnotation release];
-		addAnnotation = nil;
-	}
-	
-	addAnnotation = [[AddressAnnotation alloc] initWithCoordinate:location];
-	[mapView addAnnotation:addAnnotation];
-	
-	[mapView setRegion:region animated:TRUE];
-	[mapView regionThatFits:region];
-	//[mapView selectAnnotation:mLodgeAnnotation animated:YES];
-	}	
-}
-
-
--(CLLocationCoordinate2D) addressLocation:(NSString *)locationNameString{
-	NSString *urlString = [NSString stringWithFormat:@"http://maps.google.com/maps/geo?q=%@&output=csv",locationNameString]; 
-						  // [addressField.text stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
-	NSString *locationString = [NSString stringWithContentsOfURL:[NSURL URLWithString:urlString]];
-	NSArray *listItems = [locationString componentsSeparatedByString:@","];
-	
-	double latitude = 0.0;
-	double longitude = 0.0;
-	
-	if([listItems count] >= 4 && [[listItems objectAtIndex:0] isEqualToString:@"200"]) {
-		latitude = [[listItems objectAtIndex:2] doubleValue];
-		longitude = [[listItems objectAtIndex:3] doubleValue];
-	}
-	else {
-		NSLog(@"error getting latitude");
-	}
-	CLLocationCoordinate2D location;
-	location.latitude = latitude;
-	location.longitude = longitude;
-	
-	return location;
-}
-
-
-- (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>) annotation{
-	MKPinAnnotationView *annView=[[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"currentloc"];
-	annView.pinColor = MKPinAnnotationColorGreen;
-	annView.animatesDrop=TRUE;
-	annView.canShowCallout = YES;
-	annView.calloutOffset = CGPointMake(-5, 5);
-	return annView;
-}
-
-// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-/*
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization.
-    }
-    return self;
-}
-*/
-
 #pragma mark view 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
@@ -151,13 +103,13 @@
  	NSMutableString *url=[NSString stringWithFormat:
 						  @"http://10.1.0.49/live.php"];
 	url=[url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-	//NSLog(@"%@",url);
 	NSURLRequest *request=[NSURLRequest requestWithURL:[NSURL URLWithString:url]];
 	[[NSURLConnection alloc] initWithRequest:request delegate:self];
 	NSLog(@"Connection requested");
+	self.opQueue = [[NSOperationQueue alloc] init];
 	[UIApplication sharedApplication].networkActivityIndicatorVisible=YES;
+//	self.navigationItem.rightBarButtonItem = [UINavigationItem alloc] initWith
 	[super viewDidLoad];
-	
 }
 
 /*

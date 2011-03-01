@@ -45,7 +45,7 @@
 					<object class="IBUITableView" id="386560064">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrameSize">{320, 480}</string>
+						<string key="NSFrame">{{0, -10}, {320, 460}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -161,7 +161,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>TrainsAtStationViewController</string>
 					<string>UIResponder</string>
-					<string>{{471, 164}, {320, 480}}</string>
+					<string>{{344, 164}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>

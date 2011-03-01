@@ -8,23 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
-@interface AddressAnnotation : NSObject<MKAnnotation> {
-	CLLocationCoordinate2D coordinate;
+
+@interface TrainsLiveViewController : UIViewController <MKMapViewDelegate>{
 	
-	NSString *mTitle;
-	NSString *mSubTitle;
-}
-
-@end
-
-
-@interface TrainsLiveViewController : UIViewController <MKMapViewDelegate> {
-	IBOutlet MKMapView *mapView;
-	AddressAnnotation *addAnnotation;
 	NSMutableData *responseData;
+	NSMutableDictionary *south;
+	NSMutableDictionary *north;
+	NSOperationQueue *opQueue;
+	IBOutlet MKMapView *mapView;
 }
 
-- (void) showAddress:(NSMutableArray *)location;
-//- (CLLocationCoordinate2D) addressLocation;
-- (CLLocationCoordinate2D) addressLocation:(NSMutableArray *)locationName;
+- (void)getCoordinatesFromLocation:(NSString *)location;
+- (void)storeCoordinates:(NSMutableArray *)coordinates;
+
+@property (nonatomic, retain) NSOperationQueue *opQueue;
 @end
